@@ -11,15 +11,15 @@
     <div class="container">
         <header>
             <img src="img/logoons.png" alt="Logo ONS" class="logo">
-            <span class="material-symbols-outlined menu-icon" onclick="toggleMenu()">menu</span>
+            <span class="material-symbols-outlined menu-icon" id="menu-icon" onclick="toggleMenu()">menu</span>
         </header>
         <nav class="sidebar" id="sidebar">
             <ul id="menu-items">
                 <!-- Itens de menu serão gerados aqui -->
             </ul>
         </nav>
-        <main class="main">
-            <img src="img/capa_interface.png" alt="Capa Interface" class="main-image">
+        <main class="main" id="main-content">
+            <iframe id="content-frame" class="content-frame" src="home.html" frameborder="0"></iframe>
         </main>
     </div>
     <script src="scripts.js"></script>
