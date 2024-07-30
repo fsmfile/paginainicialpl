@@ -40,10 +40,10 @@ function closeMenu() {
 
 document.addEventListener('DOMContentLoaded', function() {
     generateMenu();
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.add('open'); // Adiciona a classe 'open' para mostrar o menu automaticamente
     document.addEventListener('click', function(event) {
-        const sidebar = document.getElementById('sidebar');
-        const menuIcon = document.getElementById('menu-icon');
-        if (!sidebar.contains(event.target) && !menuIcon.contains(event.target)) {
+        if (!sidebar.contains(event.target) && !document.getElementById('menu-icon').contains(event.target)) {
             closeMenu();
         }
     });
