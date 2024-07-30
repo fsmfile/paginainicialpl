@@ -21,6 +21,7 @@ function generateMenu() {
         a.addEventListener('click', function(event) {
             event.preventDefault();
             loadContent(item.link);
+            closeMenu(); // Fecha o menu ao clicar em um item
         });
         li.appendChild(a);
         menuList.appendChild(li);
@@ -32,15 +33,22 @@ function loadContent(url) {
     contentFrame.src = url; // Carrega o novo conteúdo no iframe
 }
 
-function closeMenu(event) {
+function closeMenu() {
     const sidebar = document.getElementById('sidebar');
-    const menuIcon = document.getElementById('menu-icon');
-    if (!sidebar.contains(event.target) && !menuIcon.contains(event.target)) {
-        sidebar.classList.remove('open');
-    }
+    sidebar.classList.remove('open');
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     generateMenu();
-    document.addEventListener('click', closeMenu);
+    document.addEventListener('click', function(event) {
+        const sidebar = document.getElementById('sidebar');
+        const menuIcon = document.getElementById('menu-icon');
+        if (!sidebar.contains(event.target) && !menuIcon.contains(event.target)) {
+            closeMenu();
+        }
+    });
+});
+
+document.getElementById('menu-icon').addEventListener('click', function(event) {
+    event.stopPropagation();
 });
