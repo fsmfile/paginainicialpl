@@ -1,0 +1,27 @@
+[
+    {
+        "text": "Estudos PAR/PEL",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYjE4YjM4ZjMtNDg3MS00NTNhLTgxN2UtZDljZmI5YmQ1MTljIiwidCI6IjNhZGVlNWZjLTkzM2UtNDkxMS1hZTFiLTljMmZlN2I4NDQ0OCIsImMiOjR9",
+        "altText": "Sumário Executivo e sua apresentação, relatórios e Infográfico."
+    },
+    {
+        "text": "Reuniões GTs estados",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiOGE0ZjVmNDUtNTE0Zi00YTQ0LTlkYzktZWExNTI0Mjc5YmFiIiwidCI6IjNhZGVlNWZjLTkzM2UtNDkxMS1hZTFiLTljMmZlN2I4NDQ0OCIsImMiOjR9",
+        "altText": "Gestão dos planos de ações, apresentações, atas de reuniões e Infográfico."
+    },
+    {
+        "text": "Painel dos Casos de Referência",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiZTFmMWFlMjEtZGQ2NS00MDhkLTkzYTktNjJhNTBiNTkyZjk1IiwidCI6IjNhZGVlNWZjLTkzM2UtNDkxMS1hZTFiLTljMmZlN2I4NDQ0OCIsImMiOjR9",
+        "altText": "Dashboard dos casos dos estudos de Curto-Prazo: PAR/PEL, Mensal e Quadrimestral."
+    },
+    {
+        "text": "Margens para os Leilões de Energia",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYWFlNmQ0NWItMTRmYi00MDQzLWEwMjUtNDYxMGQ1MjM5MTY2IiwidCI6IjNhZGVlNWZjLTkzM2UtNDkxMS1hZTFiLTljMmZlN2I4NDQ0OCIsImMiOjR9",
+        "altText": "Capacidade remanescente do SIN para leilões de energia."
+    },
+    {
+        "text": "Margem por Barramento",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiNjkxMWQxMmYtNDlhZS00MzNmLTgzODctMjBhZGM2YTRjODNlIiwidCI6IjNhZGVlNWZjLTkzM2UtNDkxMS1hZTFiLTljMmZlN2I4NDQ0OCIsImMiOjR9",
+        "altText": "Capacidade remanescente do SIN para escoamento de geração."
+    }
+]
