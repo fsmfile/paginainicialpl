@@ -43,7 +43,7 @@ header {
 }
 
 .header-title {
-    font-size: 24px; /* Ajuste conforme necessário para manter a proporção */
+    font-size: 18px; /* Ajuste conforme necessário para manter a proporção */
     color: #fff;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ header {
 }
 
 .sidebar ul li {
-    padding: 20px 25px; /* Maior padding */
+    padding: 8px 20px; /* Maior padding */
 }
 
 .sidebar ul li a {
@@ -80,11 +80,11 @@ header {
     display: block;
     font-size: 14px; /* tamanho da fonte */
     padding: 15px 0; /* Maior padding interno */
-    transition: color 0.3s ease; /* Transição suave apenas na cor */
+    transition: color 0.1s ease; /* Transição suave apenas na cor */
 }
 
 .sidebar ul li a:hover {
-    color: #3e722a; /* Cor do texto ao passar o mouse */
+    color: #9f9f9f; /* Cor do texto ao passar o mouse */
 }
 
 .main {
